@@ -1,0 +1,30 @@
+/*
+*/
+.bg-green {
+  background-color: #3aaa35;
+}
+
+.bg-mag {
+  background-color: #942514;
+}
+
+.bg-red {
+  background-color: #d03716;
+}
+/**/
+
+.banner {
+  background-attachment: fixed;
+  background-position: 0;
+  background-size: cover;
+  height: 100vh;
+  /* height: 500px; */
+  position: relative;
+  padding: 180px 0;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  z-index: 11;
+}
