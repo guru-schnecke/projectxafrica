@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
@@ -15,8 +21,14 @@
   <body>
     <div class="header">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-green">
-          <a class="navbar-brand" href="#">Project X Africa</a>
+        <div class="bg-mag w-25 ml-auto p-2">
+          <i class="fab fa-facebook-square text-white"></i>
+          <i class="fab fa-twitter-square text-white"></i>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.svg" width="150" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -56,15 +68,17 @@
           <div class="row">
             <div class="col-md-7">
               <div class="banner-left">
-                <h1>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
-                </p>
+                <div class="animated-title">
+                  <div class="text-top">
+                    <div>
+                      <span class="h1">Saving the world</span>
+                      <span class="h1">one day</span>
+                    </div>
+                  </div>
+                  <div class="text-bottom">
+                    <div class="h1">at a time</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -228,12 +242,13 @@
           </div>
         </div>
       </div>
-      <footer></footer>
     </section>
 
-    <div class="ss-style-triangles">
-      testhongddd
-    </div>
+    <footer class="bg-green py-3">
+      <div class="container">
+        Copyright 2020
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
